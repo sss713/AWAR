@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AW.AR</string>
+    <string name="title_home">Series</string>
+    <string name="title_library">Library</string>
+    <string name="title_userprofile">Profile</string>
+    <string name="title_settings">More...</string>
+</resources>
