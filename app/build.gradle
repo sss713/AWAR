@@ -45,9 +45,28 @@ dependencies {
     //noinspection GradleCompatible
     implementation 'com.android.support:design:28.0.0'
     //implementation name: 'JShikiApi'
-    implementation files('..\\libs\\JShikiApi.jar') //connect shikimori api
+    //implementation files('..\\libs\\JShikiApi.jar') //connect shikimori api
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
+    // recyclerviev to viev the movies
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+//cardviev to shov the movie poster and name
+    implementation 'com.android.support:cardview-v7:28.0.0'
+// design to create some animation
+    implementation 'com.android.support:design:28.0.0'
+   // nice spinner to create avesome spinner
+    implementation 'com.github.arcadefire:nice-spinner:1.3.4'
+    //retrofit to get api results
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+    //paperdb to store the movie details in offline in app
+    implementation 'io.paperdb:paperdb:2.5'
+    //diagonallayout to create a diagonal image view
+    //implementation 'com.github.florent37: diagonallayout:1.0.7'
+    //kenburnsview to create animation image view
+    implementation 'com.flaviofaria:kenburnsview:1.0.7'
+    //picasso to place the image in image view
+    implementation 'com.squareup.picasso:picasso:2.5.2'
 }

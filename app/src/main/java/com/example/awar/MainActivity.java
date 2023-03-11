@@ -14,14 +14,14 @@ import androidx.navigation.ui.NavigationUI;
 
 import com.example.awar.databinding.ActivityMainBinding;
 
-import net.pagala.JShikiApi.Core.Animes;
+/*import net.pagala.JShikiApi.Core.Animes;
 import net.pagala.JShikiApi.Core.ApiCall;
 import net.pagala.JShikiApi.Core.ApiResponse;
 import net.pagala.JShikiApi.Filters.SearchFilter.AnimeSearchFilter;
 import net.pagala.JShikiApi.Filters.SearchFilter.Season;
 import net.pagala.JShikiApi.Filters.SearchFilter.SeasonYear;
 import net.pagala.JShikiApi.Items.Anime;
-import net.pagala.JShikiApi.Items.AnimeFull;
+import net.pagala.JShikiApi.Items.AnimeFull;*/
 
 public class MainActivity extends AppCompatActivity {
 

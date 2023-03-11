@@ -11,9 +11,9 @@ import android.arch.lifecycle.ViewModelProvider;
 
 import com.example.awar.databinding.FragmentHomeBinding;
 
-import net.pagala.JShikiApi.Core.Animes;
+/*import net.pagala.JShikiApi.Core.Animes;
 import net.pagala.JShikiApi.Core.ApiResponse;
-import net.pagala.JShikiApi.Items.AnimeFull;
+import net.pagala.JShikiApi.Items.AnimeFull;*/
 
 public class HomeFragment extends Fragment {
 

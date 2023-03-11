@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.home.HomeFragment">
+    tools:context=".ui.home.HomeFragment"
+
+    >
 
     <TextView
         android:id="@+id/text_home"
@@ -19,5 +21,43 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
+  <!--  <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/search_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        > -->
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/query_edit_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:laout_weight="1"
+        android:hint="Enter title..."
+        android:inputType="text"
+        android:lines="1"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#858585"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/querry_search_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:laout_weight="1"
+        android:textAllCaps="false"
+        android:text="Search"
+        />
+
+
+
+
+   <!-- </android.support.v7.widget.LinearLayoutCompat> -->
+
+
 
 </android.support.constraint.ConstraintLayout>
